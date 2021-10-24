@@ -5,6 +5,7 @@
 
     &__logo {
         margin-left: 5rem;
+        display: flex;
     }
 
     &__nav {
@@ -29,6 +30,17 @@
 
     &__btn {
        margin-right: 5rem;
+
+       button {
+           border-radius: 1.5rem;
+           border: none;
+
+           width: 160px;
+           height: 45px;
+           
+           background: linear-gradient(to right, $LimeGreen, $BrightCyan);
+           color: white;
+       }
     }
 
 
